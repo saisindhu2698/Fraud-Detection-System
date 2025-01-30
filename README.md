@@ -3,9 +3,12 @@
 **Fraud Detection System**
 **Overview** : This project aims to build and compare two machine learning models, Random Forest and Logistic Regression, to detect fraudulent transactions. The dataset used is the [Credit Card Fraud Detection dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud) from Kaggle. The project is implemented in Python using Google Colab.
 
-**__Implementation Details__**
+# Implementation Details
 
-**Data Preprocessing**
+The Kaggle API is used to download the dataset.
+
+The dataset is extracted and loaded into a Pandas DataFrame for further processing.
+# **Data Preprocessing**
  
   **Normalization**: The transaction amount was normalized to bring all values into a similar range.
  
@@ -13,13 +16,13 @@
   
   **Feature Selection**: Selected relevant features from the dataset for model training.
 
-**Model Training**
+# **Model Training**
 
   **Random Forest**: Trained a Random Forest model with 100 estimators to classify transactions as fraudulent or non-fraudulent.
 
   **Logistic Regression**: Trained a Logistic Regression model with a maximum of 1000 iterations for comparison.
 
-**Model Evaluation**
+# **Model Evaluation**
 
   **Confusion Matrix:** Evaluated both models using confusion matrices to visualize the performance in terms of true positives, true negatives, false positives, and false negatives.
  
@@ -27,11 +30,11 @@
   
   **ROC AUC Score:** Calculated the ROC AUC score for both models to measure their ability to distinguish between classes.
 
-**Visualization**
+# **Visualization**
 
   **Heatmaps**: Visualized the confusion matrices using heatmaps for better understanding of the models' performance.
 
-__**Results**__
+# __**Results**__
 
 **Random Forest Model:**
   
