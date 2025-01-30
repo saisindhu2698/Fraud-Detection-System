@@ -1,6 +1,5 @@
 # Fraud-Detection-System
 
-**Fraud Detection System**
 **Overview** : This project aims to build and compare two machine learning models, Random Forest and Logistic Regression, to detect fraudulent transactions. The dataset used is the [Credit Card Fraud Detection dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud) from Kaggle. The project is implemented in Python using Google Colab.
 
 # Implementation Details
