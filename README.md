@@ -3,7 +3,7 @@
 **Fraud Detection System**
 **Overview**
 
-This project aims to build and compare two machine learning models, Random Forest and Logistic Regression, to detect fraudulent transactions. The dataset used is the [Credit Card Fraud Detection dataset]([url](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)) from Kaggle. The project is implemented in Python using Google Colab.
+This project aims to build and compare two machine learning models, Random Forest and Logistic Regression, to detect fraudulent transactions. The dataset used is the [Credit Card Fraud Detection dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud) from Kaggle. The project is implemented in Python using Google Colab.
 
 **Implementation Details**
 **Data Preprocessing**
@@ -25,8 +25,8 @@ Confusion Matrix:** Evaluated both models using confusion matrices to visualize 
 
 ROC AUC Score: Calculated the ROC AUC score for both models to measure their ability to distinguish between classes.
 
-**Visualization
-Heatmaps**: Visualized the confusion matrices using heatmaps for better understanding of the models' performance.
+**Visualization**
+**Heatmaps**: Visualized the confusion matrices using heatmaps for better understanding of the models' performance.
 
 **Results**
 Random Forest Model:
@@ -55,6 +55,5 @@ ROC AUC Score: 0.97
 Classification Report: Moderate Precision and Recall
 
 The Random Forest model outperforms the Logistic Regression model in terms of precision, recall, and ROC AUC score.
-
 
 This project demonstrates the process of building and evaluating a fraud detection system using two different machine learning models. The Random Forest model shows superior performance compared to the Logistic Regression model.
