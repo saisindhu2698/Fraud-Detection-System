@@ -1,59 +1,53 @@
 # Fraud-Detection-System
 
 **Fraud Detection System**
-**Overview**
+**Overview** : This project aims to build and compare two machine learning models, Random Forest and Logistic Regression, to detect fraudulent transactions. The dataset used is the [Credit Card Fraud Detection dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud) from Kaggle. The project is implemented in Python using Google Colab.
 
-This project aims to build and compare two machine learning models, Random Forest and Logistic Regression, to detect fraudulent transactions. The dataset used is the [Credit Card Fraud Detection dataset](https://www.kaggle.com/mlg-ulb/creditcardfraud) from Kaggle. The project is implemented in Python using Google Colab.
+**__Implementation Details__**
 
-**Implementation Details**
 **Data Preprocessing**
-**Normalization**: The transaction amount was normalized to bring all values into a similar range.
+ 
+  **Normalization**: The transaction amount was normalized to bring all values into a similar range.
+ 
+  **Date Features**: Extracted day and month from the transaction time to be used as additional features.
+  
+  **Feature Selection**: Selected relevant features from the dataset for model training.
 
-**Date Features**: Extracted day and month from the transaction time to be used as additional features.
+**Model Training**
 
-**Feature Selection**: Selected relevant features from the dataset for model training.
+  **Random Forest**: Trained a Random Forest model with 100 estimators to classify transactions as fraudulent or non-fraudulent.
 
-**Model Training
-Random Forest**: Trained a Random Forest model with 100 estimators to classify transactions as fraudulent or non-fraudulent.
+  **Logistic Regression**: Trained a Logistic Regression model with a maximum of 1000 iterations for comparison.
 
-**Logistic Regression**: Trained a Logistic Regression model with a maximum of 1000 iterations for comparison.
+**Model Evaluation**
 
-**Model Evaluation
-Confusion Matrix:** Evaluated both models using confusion matrices to visualize the performance in terms of true positives, true negatives, false positives, and false negatives.
-
-**Classification Report:** Generated classification reports for both models to provide detailed metrics like precision, recall, and F1-score.
-
-ROC AUC Score: Calculated the ROC AUC score for both models to measure their ability to distinguish between classes.
+  **Confusion Matrix:** Evaluated both models using confusion matrices to visualize the performance in terms of true positives, true negatives, false positives, and false negatives.
+ 
+  **Classification Report:** Generated classification reports for both models to provide detailed metrics like precision, recall, and F1-score.
+  
+  **ROC AUC Score:** Calculated the ROC AUC score for both models to measure their ability to distinguish between classes.
 
 **Visualization**
-**Heatmaps**: Visualized the confusion matrices using heatmaps for better understanding of the models' performance.
 
-**Results**
-Random Forest Model:
-Confusion Matrix:
+  **Heatmaps**: Visualized the confusion matrices using heatmaps for better understanding of the models' performance.
 
-True Negatives: 56861
-False Positives: 3
-False Negatives: 21
-True Positives: 77
+__**Results**__
 
-ROC AUC Score: 0.99
+**Random Forest Model:**
+  
+    Confusion Matrix: True Negatives: 56861 || False Positives: 3 || False Negatives: 21 || True Positives: 77
 
-Classification Report: High Precision and Recall
+    ROC AUC Score: 0.99
 
-Logistic Regression Model:
+    Classification Report: High Precision and Recall
 
-Confusion Matrix:
+  **Logistic Regression Model:**
 
-True Negatives: 56855
-False Positives: 9
-False Negatives: 39
-True Positives: 59
+    Confusion Matrix: True Negatives: 56855 || False Positives: 9 || False Negatives: 39 || True Positives: 59
 
-ROC AUC Score: 0.97
+    ROC AUC Score: 0.97
 
-Classification Report: Moderate Precision and Recall
+    Classification Report: Moderate Precision and Recall
 
-The Random Forest model outperforms the Logistic Regression model in terms of precision, recall, and ROC AUC score.
 
-This project demonstrates the process of building and evaluating a fraud detection system using two different machine learning models. The Random Forest model shows superior performance compared to the Logistic Regression model.
+This project demonstrates the process of building and evaluating a fraud detection system using two different machine learning models.The Random Forest model outperforms the Logistic Regression model in terms of precision, recall, and ROC AUC score.
