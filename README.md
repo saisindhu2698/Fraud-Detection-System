@@ -5,7 +5,7 @@
 
 # Implementation Details
 
-The Kaggle API is used to download the dataset.
+I used Kaggle API to download the dataset.
 
 The dataset is extracted and loaded into a Pandas DataFrame for further processing.
 # **Data Preprocessing**
